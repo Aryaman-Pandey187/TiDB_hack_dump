@@ -415,7 +415,7 @@ if st.button("Find Trials 🔍"):
                 'lambda',
                 region_name='us-east-1',  # Replace if different
                 aws_access_key_id='',  # Replace
-                aws_secret_access_key='fRne0iVA55WdJIPFLN1+JLs0QzusezR09Y4FM4El'  # Replace
+                aws_secret_access_key='f'  # Replace
             )
             payload = json.dumps({
                 'to_email': email,
