@@ -414,7 +414,7 @@ if st.button("Find Trials 🔍"):
             lambda_client = boto3.client(
                 'lambda',
                 region_name='us-east-1',  # Replace if different
-                aws_access_key_id='AKIAQH4ZC2NKDNKGFYFL',  # Replace
+                aws_access_key_id='',  # Replace
                 aws_secret_access_key='fRne0iVA55WdJIPFLN1+JLs0QzusezR09Y4FM4El'  # Replace
             )
             payload = json.dumps({
